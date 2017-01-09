@@ -1,7 +1,7 @@
 etcdloadtest
 ============
 
-`etcd-load-tester` is a command line load test client for [etcd].
+`etcdloadtest` is a command line load test client for [etcd].
 Make sure to set environment variable `ETCDCTL_API=3`.
 
 ## Commands
