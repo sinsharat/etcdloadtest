@@ -1,8 +1,7 @@
 etcdloadtest
 ============
 
-`etcdloadtest` is a command line load test client for [etcd].
-Make sure to set environment variable `ETCDCTL_API=3`.
+`etcdloadtest` is a command line load test client for [etcd](https://github.com/coreos/etcd).
 
 ## Commands
 
@@ -28,7 +27,7 @@ TestPUR does the load test for put, update and read operations.
 
 - value-length --length of value for the operation
 
-- consistency --Linearizable(l) or Serializable(s)
+- consistency --Linearizable(l) or Serializable(s) for read operation, applicable for mode 'all' and 'get' only'.
 
 #### Examples
 
